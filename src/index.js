@@ -1,5 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import { App } from "./components/App";
+import "./index.css";
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
 
 // import ReactDOM from "react-dom/client";
 // import './index.css';
@@ -56,15 +64,16 @@ import ReactDOM from "react-dom/client";
 </div>; */
 }
 
-const painting = (
-  <div>
-    <img src="" alt="" width="480" />
-    <h2></h2>
-    <p>
-      Автор: <a href=""></a>
-    </p>
-    <p>Ціна: кредитів</p>
-    <p>Доступність: закінчується чи є в наявності</p>
-    <button type="button">Додати до корзини</button>
-  </div>
-);
+// const painting = (
+//   <div>
+//     <img src="" alt="" width="480" />
+//     <h2></h2>
+//     <p>
+//       Автор: <a href=""></a>
+//     </p>
+//     <p>Ціна: кредитів</p>
+//     <p>Доступність: закінчується чи є в наявності</p>
+//     <button type="button">Додати до корзини</button>
+//   </div>
+// );
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!   EVENTS   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

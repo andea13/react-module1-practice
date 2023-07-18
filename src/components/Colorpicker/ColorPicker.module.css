@@ -1,0 +1,16 @@
+.ColorPicker {
+  border: 1px solid #000;
+}
+
+.ColorPicker__option {
+  appearance: inherit;
+  width: 100px;
+  height: 100px;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.ColorPicker__option__active {
+  transform: scale(1.2);
+}
